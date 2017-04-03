@@ -10,7 +10,7 @@ public class BankAccountDetails {
 
     @Override
     public String toString() {
-        return String.format("BankAccountDetails [accountId=%d, balanceAmount=%d, lastTransactionTimestamp=%F]", this.accountId, this.balanceAmount, this.lastTransactionTimestamp);
+        return String.format("BankAccountDetails [accountId=%d, balanceAmount=%d, lastTransactionTimestamp=%b]", this.accountId, this.balanceAmount, this.lastTransactionTimestamp);
     }
 
     public int getAccountId() {
