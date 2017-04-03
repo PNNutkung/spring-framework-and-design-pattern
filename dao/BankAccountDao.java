@@ -1,3 +1,7 @@
+package dao;
+
+import domain.BankAccountDetails;
+
 /**
  * Created by nut on 4/3/17.
  */
